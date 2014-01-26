@@ -1,6 +1,7 @@
-css/app.css
-js/app.js
-
 node_modules
-vendors
 tmp
+
+vendors/bootstrap/*
+vendors/jquery
+vendors/font-awesome/*
+!vendors/font-awesome/fonts/
