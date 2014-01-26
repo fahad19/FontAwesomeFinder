@@ -1,0 +1,132 @@
+/**
+ * Bootstrap
+ */
+@import "bootstrap/less/bootstrap.less";
+@icon-font-path: '../vendors/bootstrap/fonts/';
+
+/**
+ * FontAwesome
+ */
+@import "font-awesome/less/font-awesome.less";
+@fa-font-path: "../vendors/font-awesome/fonts";
+
+/**
+ * Custom
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@heading-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@scheme: #1fa67a;
+@schemeLightened: lighten(@scheme, 5%);
+@schemeDarkened: darken(@scheme, 5%);
+
+body {
+  font-family: @family;
+  background: #eee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: @heading-family;
+}
+
+header {
+  background: @scheme;
+  border-top: 3px solid @schemeDarkened;
+  border-bottom: 3px solid @schemeDarkened;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+
+  h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 0 @schemeLightened, 9px 8px 0 rgba(0,0,0,0.15);
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  p {
+    text-align: center;
+    color: lighten(@scheme, 40%);
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  input[type=search] {
+    &::-webkit-search-cancel-button {
+      -webkit-appearance: searchfield-cancel-button;
+    }
+
+    &::-webkit-search-results-decoration {
+      padding-left: 0px;
+      padding-right: 10px;
+    }
+
+    &::-webkit-input-placeholder {
+      font-style: italic;
+      color: #aaa;
+    }
+
+    &,
+    &:focus {
+      box-shadow: none;
+      border: 3px solid @schemeDarkened;
+      font-size: 18px;
+      padding: 20px 20px 20px 10px;
+    }
+  }
+}
+
+section {
+  .container {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 8px 20px 6px #ccc;
+
+    .alert {
+      margin-top: 20px;
+    }
+  }
+}
+
+footer {
+  font-family: @heading-family;
+  text-align: center;
+  font-size: 12px;
+  padding: 30px;
+}
+
+.icons-list {
+  .icon {
+    font-size: 14px;
+    padding: 10px 0px;
+
+    a {
+      display: block;
+      color: #333;
+      padding: 5px;
+      border-radius: 4px;
+      transition: background 0.15s;
+      text-decoration: none;
+
+      i {
+        min-width: 20px;
+        display: inline-block;
+      }
+
+      &:hover {
+        color: #fff;
+        background: @scheme;
+        cursor: default;
+      }
+    }
+  }
+}
