@@ -73,7 +73,10 @@
   },
   "fa-cog": {
     "name": "fa-cog",
-    "keywords": []
+    "keywords": [
+      "gear",
+      "settings"
+    ]
   },
   "fa-trash-o": {
     "name": "fa-trash-o",
