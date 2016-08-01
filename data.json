@@ -9,7 +9,10 @@
   },
   "fa-search": {
     "name": "fa-search",
-    "keywords": []
+    "keywords": [
+      "magnifying glass",
+      "zoom"
+    ]
   },
   "fa-envelope-o": {
     "name": "fa-envelope-o",
@@ -57,11 +60,17 @@
   },
   "fa-search-plus": {
     "name": "fa-search-plus",
-    "keywords": []
+    "keywords": [
+      "magnifying glass",
+      "zoom in"
+    ]
   },
   "fa-search-minus": {
     "name": "fa-search-minus",
-    "keywords": []
+    "keywords": [
+      "magnifying glass",
+      "zoom out"
+    ]
   },
   "fa-power-off": {
     "name": "fa-power-off",
