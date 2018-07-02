@@ -1,0 +1,5 @@
+#!/bin/sh
+/sbin/pidof /home/hostsimpleco/webapps/fontawesome_meta_search/bin/node > /dev/null 2>&1 && exit 0
+mkdir -p /home/hostsimpleco/webapps/fontawesome_meta_search/run
+nohup /home/hostsimpleco/webapps/fontawesome_meta_search/bin/node /home/hostsimpleco/webapps/fontawesome_meta_search/index.js > /dev/null 2>&1 &
+/sbin/pidof /home/hostsimpleco/webapps/fontawesome_meta_search/bin/node > /home/hostsimpleco/webapps/fontawesome_meta_search/run/node.pid

@@ -9,7 +9,10 @@
   },
   "fa-search": {
     "name": "fa-search",
-    "keywords": []
+    "keywords": [
+      "magnifying glass",
+      "zoom"
+    ]
   },
   "fa-envelope-o": {
     "name": "fa-envelope-o",
@@ -57,11 +60,17 @@
   },
   "fa-search-plus": {
     "name": "fa-search-plus",
-    "keywords": []
+    "keywords": [
+      "magnifying glass",
+      "zoom in"
+    ]
   },
   "fa-search-minus": {
     "name": "fa-search-minus",
-    "keywords": []
+    "keywords": [
+      "magnifying glass",
+      "zoom out"
+    ]
   },
   "fa-power-off": {
     "name": "fa-power-off",
@@ -964,7 +973,10 @@
   },
   "fa-circle-o": {
     "name": "fa-circle-o",
-    "keywords": []
+    "keywords": [
+      "not required",
+      "optional"
+    ]
   },
   "fa-quote-left": {
     "name": "fa-quote-left",
@@ -1476,6 +1488,1674 @@
   },
   "fa-plus-square-o": {
     "name": "fa-plus-square-o",
+    "keywords": []
+  },
+  "fa-500px": {
+    "name": "fa-500px",
+    "keywords": []
+  },
+  "fa-address-book": {
+    "name": "fa-address-book",
+    "keywords": []
+  },
+  "fa-address-book-o": {
+    "name": "fa-address-book-o",
+    "keywords": []
+  },
+  "fa-address-card": {
+    "name": "fa-address-card",
+    "keywords": []
+  },
+  "fa-address-card-o": {
+    "name": "fa-address-card-o",
+    "keywords": []
+  },
+  "fa-amazon": {
+    "name": "fa-amazon",
+    "keywords": []
+  },
+  "fa-american-sign-language-interpreting": {
+    "name": "fa-american-sign-language-interpreting",
+    "keywords": []
+  },
+  "fa-angellist": {
+    "name": "fa-angellist",
+    "keywords": []
+  },
+  "fa-area-chart": {
+    "name": "fa-area-chart",
+    "keywords": []
+  },
+  "fa-asl-interpreting": {
+    "name": "fa-asl-interpreting",
+    "keywords": []
+  },
+  "fa-assistive-listening-systems": {
+    "name": "fa-assistive-listening-systems",
+    "keywords": []
+  },
+  "fa-at": {
+    "name": "fa-at",
+    "keywords": []
+  },
+  "fa-audio-description": {
+    "name": "fa-audio-description",
+    "keywords": []
+  },
+  "fa-automobile": {
+    "name": "fa-automobile",
+    "keywords": []
+  },
+  "fa-balance-scale": {
+    "name": "fa-balance-scale",
+    "keywords": []
+  },
+  "fa-bandcamp": {
+    "name": "fa-bandcamp",
+    "keywords": []
+  },
+  "fa-bank": {
+    "name": "fa-bank",
+    "keywords": []
+  },
+  "fa-bar-chart": {
+    "name": "fa-bar-chart",
+    "keywords": []
+  },
+  "fa-bath": {
+    "name": "fa-bath",
+    "keywords": []
+  },
+  "fa-bathtub": {
+    "name": "fa-bathtub",
+    "keywords": []
+  },
+  "fa-battery": {
+    "name": "fa-battery",
+    "keywords": []
+  },
+  "fa-battery-0": {
+    "name": "fa-battery-0",
+    "keywords": []
+  },
+  "fa-battery-1": {
+    "name": "fa-battery-1",
+    "keywords": []
+  },
+  "fa-battery-2": {
+    "name": "fa-battery-2",
+    "keywords": []
+  },
+  "fa-battery-3": {
+    "name": "fa-battery-3",
+    "keywords": []
+  },
+  "fa-battery-4": {
+    "name": "fa-battery-4",
+    "keywords": []
+  },
+  "fa-battery-empty": {
+    "name": "fa-battery-empty",
+    "keywords": []
+  },
+  "fa-battery-full": {
+    "name": "fa-battery-full",
+    "keywords": []
+  },
+  "fa-battery-half": {
+    "name": "fa-battery-half",
+    "keywords": []
+  },
+  "fa-battery-quarter": {
+    "name": "fa-battery-quarter",
+    "keywords": []
+  },
+  "fa-battery-three-quarters": {
+    "name": "fa-battery-three-quarters",
+    "keywords": []
+  },
+  "fa-bed": {
+    "name": "fa-bed",
+    "keywords": []
+  },
+  "fa-behance": {
+    "name": "fa-behance",
+    "keywords": []
+  },
+  "fa-behance-square": {
+    "name": "fa-behance-square",
+    "keywords": []
+  },
+  "fa-bell-slash": {
+    "name": "fa-bell-slash",
+    "keywords": []
+  },
+  "fa-bell-slash-o": {
+    "name": "fa-bell-slash-o",
+    "keywords": []
+  },
+  "fa-bicycle": {
+    "name": "fa-bicycle",
+    "keywords": []
+  },
+  "fa-binoculars": {
+    "name": "fa-binoculars",
+    "keywords": []
+  },
+  "fa-birthday-cake": {
+    "name": "fa-birthday-cake",
+    "keywords": []
+  },
+  "fa-bitcoin": {
+    "name": "fa-bitcoin",
+    "keywords": []
+  },
+  "fa-black-tie": {
+    "name": "fa-black-tie",
+    "keywords": []
+  },
+  "fa-blind": {
+    "name": "fa-blind",
+    "keywords": []
+  },
+  "fa-bluetooth": {
+    "name": "fa-bluetooth",
+    "keywords": []
+  },
+  "fa-bluetooth-b": {
+    "name": "fa-bluetooth-b",
+    "keywords": []
+  },
+  "fa-bomb": {
+    "name": "fa-bomb",
+    "keywords": []
+  },
+  "fa-braille": {
+    "name": "fa-braille",
+    "keywords": []
+  },
+  "fa-building": {
+    "name": "fa-building",
+    "keywords": []
+  },
+  "fa-bus": {
+    "name": "fa-bus",
+    "keywords": []
+  },
+  "fa-buysellads": {
+    "name": "fa-buysellads",
+    "keywords": []
+  },
+  "fa-cab": {
+    "name": "fa-cab",
+    "keywords": []
+  },
+  "fa-calculator": {
+    "name": "fa-calculator",
+    "keywords": []
+  },
+  "fa-calendar-check-o": {
+    "name": "fa-calendar-check-o",
+    "keywords": []
+  },
+  "fa-calendar-minus-o": {
+    "name": "fa-calendar-minus-o",
+    "keywords": []
+  },
+  "fa-calendar-plus-o": {
+    "name": "fa-calendar-plus-o",
+    "keywords": []
+  },
+  "fa-calendar-times-o": {
+    "name": "fa-calendar-times-o",
+    "keywords": []
+  },
+  "fa-car": {
+    "name": "fa-car",
+    "keywords": []
+  },
+  "fa-cart-arrow-down": {
+    "name": "fa-cart-arrow-down",
+    "keywords": []
+  },
+  "fa-cart-plus": {
+    "name": "fa-cart-plus",
+    "keywords": []
+  },
+  "fa-cc": {
+    "name": "fa-cc",
+    "keywords": []
+  },
+  "fa-cc-amex": {
+    "name": "fa-cc-amex",
+    "keywords": []
+  },
+  "fa-cc-diners-club": {
+    "name": "fa-cc-diners-club",
+    "keywords": []
+  },
+  "fa-cc-discover": {
+    "name": "fa-cc-discover",
+    "keywords": []
+  },
+  "fa-cc-jcb": {
+    "name": "fa-cc-jcb",
+    "keywords": []
+  },
+  "fa-cc-mastercard": {
+    "name": "fa-cc-mastercard",
+    "keywords": []
+  },
+  "fa-cc-paypal": {
+    "name": "fa-cc-paypal",
+    "keywords": []
+  },
+  "fa-cc-stripe": {
+    "name": "fa-cc-stripe",
+    "keywords": []
+  },
+  "fa-cc-visa": {
+    "name": "fa-cc-visa",
+    "keywords": []
+  },
+  "fa-chain": {
+    "name": "fa-chain",
+    "keywords": []
+  },
+  "fa-child": {
+    "name": "fa-child",
+    "keywords": []
+  },
+  "fa-chrome": {
+    "name": "fa-chrome",
+    "keywords": []
+  },
+  "fa-circle-o-notch": {
+    "name": "fa-circle-o-notch",
+    "keywords": []
+  },
+  "fa-circle-thin": {
+    "name": "fa-circle-thin",
+    "keywords": []
+  },
+  "fa-clone": {
+    "name": "fa-clone",
+    "keywords": []
+  },
+  "fa-close": {
+    "name": "fa-close",
+    "keywords": []
+  },
+  "fa-cny": {
+    "name": "fa-cny",
+    "keywords": []
+  },
+  "fa-codepen": {
+    "name": "fa-codepen",
+    "keywords": []
+  },
+  "fa-codiepie": {
+    "name": "fa-codiepie",
+    "keywords": []
+  },
+  "fa-commenting": {
+    "name": "fa-commenting",
+    "keywords": []
+  },
+  "fa-commenting-o": {
+    "name": "fa-commenting-o",
+    "keywords": []
+  },
+  "fa-connectdevelop": {
+    "name": "fa-connectdevelop",
+    "keywords": []
+  },
+  "fa-contao": {
+    "name": "fa-contao",
+    "keywords": []
+  },
+  "fa-copy": {
+    "name": "fa-copy",
+    "keywords": []
+  },
+  "fa-copyright": {
+    "name": "fa-copyright",
+    "keywords": []
+  },
+  "fa-creative-commons": {
+    "name": "fa-creative-commons",
+    "keywords": []
+  },
+  "fa-credit-card-alt": {
+    "name": "fa-credit-card-alt",
+    "keywords": []
+  },
+  "fa-cube": {
+    "name": "fa-cube",
+    "keywords": []
+  },
+  "fa-cubes": {
+    "name": "fa-cubes",
+    "keywords": []
+  },
+  "fa-cut": {
+    "name": "fa-cut",
+    "keywords": []
+  },
+  "fa-dashboard": {
+    "name": "fa-dashboard",
+    "keywords": []
+  },
+  "fa-dashcube": {
+    "name": "fa-dashcube",
+    "keywords": []
+  },
+  "fa-database": {
+    "name": "fa-database",
+    "keywords": []
+  },
+  "fa-deaf": {
+    "name": "fa-deaf",
+    "keywords": []
+  },
+  "fa-deafness": {
+    "name": "fa-deafness",
+    "keywords": []
+  },
+  "fa-dedent": {
+    "name": "fa-dedent",
+    "keywords": []
+  },
+  "fa-delicious": {
+    "name": "fa-delicious",
+    "keywords": []
+  },
+  "fa-deviantart": {
+    "name": "fa-deviantart",
+    "keywords": []
+  },
+  "fa-diamond": {
+    "name": "fa-diamond",
+    "keywords": []
+  },
+  "fa-digg": {
+    "name": "fa-digg",
+    "keywords": []
+  },
+  "fa-dollar": {
+    "name": "fa-dollar",
+    "keywords": []
+  },
+  "fa-drivers-license": {
+    "name": "fa-drivers-license",
+    "keywords": []
+  },
+  "fa-drivers-license-o": {
+    "name": "fa-drivers-license-o",
+    "keywords": []
+  },
+  "fa-drupal": {
+    "name": "fa-drupal",
+    "keywords": []
+  },
+  "fa-edge": {
+    "name": "fa-edge",
+    "keywords": []
+  },
+  "fa-edit": {
+    "name": "fa-edit",
+    "keywords": []
+  },
+  "fa-eercast": {
+    "name": "fa-eercast",
+    "keywords": []
+  },
+  "fa-empire": {
+    "name": "fa-empire",
+    "keywords": []
+  },
+  "fa-envelope-open": {
+    "name": "fa-envelope-open",
+    "keywords": []
+  },
+  "fa-envelope-open-o": {
+    "name": "fa-envelope-open-o",
+    "keywords": []
+  },
+  "fa-envelope-square": {
+    "name": "fa-envelope-square",
+    "keywords": []
+  },
+  "fa-envira": {
+    "name": "fa-envira",
+    "keywords": []
+  },
+  "fa-etsy": {
+    "name": "fa-etsy",
+    "keywords": []
+  },
+  "fa-euro": {
+    "name": "fa-euro",
+    "keywords": []
+  },
+  "fa-expeditedssl": {
+    "name": "fa-expeditedssl",
+    "keywords": []
+  },
+  "fa-eyedropper": {
+    "name": "fa-eyedropper",
+    "keywords": []
+  },
+  "fa-fa": {
+    "name": "fa-fa",
+    "keywords": []
+  },
+  "fa-facebook-f": {
+    "name": "fa-facebook-f",
+    "keywords": []
+  },
+  "fa-facebook-official": {
+    "name": "fa-facebook-official",
+    "keywords": []
+  },
+  "fa-fax": {
+    "name": "fa-fax",
+    "keywords": []
+  },
+  "fa-feed": {
+    "name": "fa-feed",
+    "keywords": []
+  },
+  "fa-file-archive-o": {
+    "name": "fa-file-archive-o",
+    "keywords": []
+  },
+  "fa-file-audio-o": {
+    "name": "fa-file-audio-o",
+    "keywords": []
+  },
+  "fa-file-code-o": {
+    "name": "fa-file-code-o",
+    "keywords": []
+  },
+  "fa-file-excel-o": {
+    "name": "fa-file-excel-o",
+    "keywords": []
+  },
+  "fa-file-image-o": {
+    "name": "fa-file-image-o",
+    "keywords": []
+  },
+  "fa-file-movie-o": {
+    "name": "fa-file-movie-o",
+    "keywords": []
+  },
+  "fa-file-pdf-o": {
+    "name": "fa-file-pdf-o",
+    "keywords": []
+  },
+  "fa-file-photo-o": {
+    "name": "fa-file-photo-o",
+    "keywords": []
+  },
+  "fa-file-picture-o": {
+    "name": "fa-file-picture-o",
+    "keywords": []
+  },
+  "fa-file-powerpoint-o": {
+    "name": "fa-file-powerpoint-o",
+    "keywords": []
+  },
+  "fa-file-sound-o": {
+    "name": "fa-file-sound-o",
+    "keywords": []
+  },
+  "fa-file-video-o": {
+    "name": "fa-file-video-o",
+    "keywords": []
+  },
+  "fa-file-word-o": {
+    "name": "fa-file-word-o",
+    "keywords": []
+  },
+  "fa-file-zip-o": {
+    "name": "fa-file-zip-o",
+    "keywords": []
+  },
+  "fa-firefox": {
+    "name": "fa-firefox",
+    "keywords": []
+  },
+  "fa-first-order": {
+    "name": "fa-first-order",
+    "keywords": []
+  },
+  "fa-flash": {
+    "name": "fa-flash",
+    "keywords": []
+  },
+  "fa-font-awesome": {
+    "name": "fa-font-awesome",
+    "keywords": []
+  },
+  "fa-fonticons": {
+    "name": "fa-fonticons",
+    "keywords": []
+  },
+  "fa-fort-awesome": {
+    "name": "fa-fort-awesome",
+    "keywords": []
+  },
+  "fa-forumbee": {
+    "name": "fa-forumbee",
+    "keywords": []
+  },
+  "fa-free-code-camp": {
+    "name": "fa-free-code-camp",
+    "keywords": []
+  },
+  "fa-futbol-o": {
+    "name": "fa-futbol-o",
+    "keywords": []
+  },
+  "fa-ge": {
+    "name": "fa-ge",
+    "keywords": []
+  },
+  "fa-gear": {
+    "name": "fa-gear",
+    "keywords": []
+  },
+  "fa-gears": {
+    "name": "fa-gears",
+    "keywords": []
+  },
+  "fa-genderless": {
+    "name": "fa-genderless",
+    "keywords": []
+  },
+  "fa-get-pocket": {
+    "name": "fa-get-pocket",
+    "keywords": []
+  },
+  "fa-gg": {
+    "name": "fa-gg",
+    "keywords": []
+  },
+  "fa-gg-circle": {
+    "name": "fa-gg-circle",
+    "keywords": []
+  },
+  "fa-git": {
+    "name": "fa-git",
+    "keywords": []
+  },
+  "fa-git-square": {
+    "name": "fa-git-square",
+    "keywords": []
+  },
+  "fa-gitlab": {
+    "name": "fa-gitlab",
+    "keywords": []
+  },
+  "fa-glide": {
+    "name": "fa-glide",
+    "keywords": []
+  },
+  "fa-glide-g": {
+    "name": "fa-glide-g",
+    "keywords": []
+  },
+  "fa-google": {
+    "name": "fa-google",
+    "keywords": []
+  },
+  "fa-google-plus-circle": {
+    "name": "fa-google-plus-circle",
+    "keywords": []
+  },
+  "fa-google-plus-official": {
+    "name": "fa-google-plus-official",
+    "keywords": []
+  },
+  "fa-google-wallet": {
+    "name": "fa-google-wallet",
+    "keywords": []
+  },
+  "fa-graduation-cap": {
+    "name": "fa-graduation-cap",
+    "keywords": []
+  },
+  "fa-gratipay": {
+    "name": "fa-gratipay",
+    "keywords": []
+  },
+  "fa-grav": {
+    "name": "fa-grav",
+    "keywords": []
+  },
+  "fa-group": {
+    "name": "fa-group",
+    "keywords": []
+  },
+  "fa-hacker-news": {
+    "name": "fa-hacker-news",
+    "keywords": []
+  },
+  "fa-hand-grab-o": {
+    "name": "fa-hand-grab-o",
+    "keywords": []
+  },
+  "fa-hand-lizard-o": {
+    "name": "fa-hand-lizard-o",
+    "keywords": []
+  },
+  "fa-hand-paper-o": {
+    "name": "fa-hand-paper-o",
+    "keywords": []
+  },
+  "fa-hand-peace-o": {
+    "name": "fa-hand-peace-o",
+    "keywords": []
+  },
+  "fa-hand-pointer-o": {
+    "name": "fa-hand-pointer-o",
+    "keywords": []
+  },
+  "fa-hand-rock-o": {
+    "name": "fa-hand-rock-o",
+    "keywords": []
+  },
+  "fa-hand-scissors-o": {
+    "name": "fa-hand-scissors-o",
+    "keywords": []
+  },
+  "fa-hand-spock-o": {
+    "name": "fa-hand-spock-o",
+    "keywords": []
+  },
+  "fa-hand-stop-o": {
+    "name": "fa-hand-stop-o",
+    "keywords": []
+  },
+  "fa-handshake-o": {
+    "name": "fa-handshake-o",
+    "keywords": []
+  },
+  "fa-hard-of-hearing": {
+    "name": "fa-hard-of-hearing",
+    "keywords": []
+  },
+  "fa-hashtag": {
+    "name": "fa-hashtag",
+    "keywords": []
+  },
+  "fa-header": {
+    "name": "fa-header",
+    "keywords": []
+  },
+  "fa-heartbeat": {
+    "name": "fa-heartbeat",
+    "keywords": []
+  },
+  "fa-history": {
+    "name": "fa-history",
+    "keywords": []
+  },
+  "fa-hotel": {
+    "name": "fa-hotel",
+    "keywords": []
+  },
+  "fa-hourglass": {
+    "name": "fa-hourglass",
+    "keywords": []
+  },
+  "fa-hourglass-1": {
+    "name": "fa-hourglass-1",
+    "keywords": []
+  },
+  "fa-hourglass-2": {
+    "name": "fa-hourglass-2",
+    "keywords": []
+  },
+  "fa-hourglass-3": {
+    "name": "fa-hourglass-3",
+    "keywords": []
+  },
+  "fa-hourglass-end": {
+    "name": "fa-hourglass-end",
+    "keywords": []
+  },
+  "fa-hourglass-half": {
+    "name": "fa-hourglass-half",
+    "keywords": []
+  },
+  "fa-hourglass-o": {
+    "name": "fa-hourglass-o",
+    "keywords": []
+  },
+  "fa-hourglass-start": {
+    "name": "fa-hourglass-start",
+    "keywords": []
+  },
+  "fa-houzz": {
+    "name": "fa-houzz",
+    "keywords": []
+  },
+  "fa-i-cursor": {
+    "name": "fa-i-cursor",
+    "keywords": []
+  },
+  "fa-id-badge": {
+    "name": "fa-id-badge",
+    "keywords": []
+  },
+  "fa-id-card": {
+    "name": "fa-id-card",
+    "keywords": []
+  },
+  "fa-id-card-o": {
+    "name": "fa-id-card-o",
+    "keywords": []
+  },
+  "fa-ils": {
+    "name": "fa-ils",
+    "keywords": []
+  },
+  "fa-image": {
+    "name": "fa-image",
+    "keywords": []
+  },
+  "fa-imdb": {
+    "name": "fa-imdb",
+    "keywords": []
+  },
+  "fa-industry": {
+    "name": "fa-industry",
+    "keywords": []
+  },
+  "fa-institution": {
+    "name": "fa-institution",
+    "keywords": []
+  },
+  "fa-internet-explorer": {
+    "name": "fa-internet-explorer",
+    "keywords": []
+  },
+  "fa-intersex": {
+    "name": "fa-intersex",
+    "keywords": []
+  },
+  "fa-ioxhost": {
+    "name": "fa-ioxhost",
+    "keywords": []
+  },
+  "fa-joomla": {
+    "name": "fa-joomla",
+    "keywords": []
+  },
+  "fa-jsfiddle": {
+    "name": "fa-jsfiddle",
+    "keywords": []
+  },
+  "fa-language": {
+    "name": "fa-language",
+    "keywords": []
+  },
+  "fa-lastfm": {
+    "name": "fa-lastfm",
+    "keywords": []
+  },
+  "fa-lastfm-square": {
+    "name": "fa-lastfm-square",
+    "keywords": []
+  },
+  "fa-leanpub": {
+    "name": "fa-leanpub",
+    "keywords": []
+  },
+  "fa-legal": {
+    "name": "fa-legal",
+    "keywords": []
+  },
+  "fa-life-bouy": {
+    "name": "fa-life-bouy",
+    "keywords": []
+  },
+  "fa-life-buoy": {
+    "name": "fa-life-buoy",
+    "keywords": []
+  },
+  "fa-life-ring": {
+    "name": "fa-life-ring",
+    "keywords": []
+  },
+  "fa-life-saver": {
+    "name": "fa-life-saver",
+    "keywords": []
+  },
+  "fa-line-chart": {
+    "name": "fa-line-chart",
+    "keywords": []
+  },
+  "fa-linode": {
+    "name": "fa-linode",
+    "keywords": []
+  },
+  "fa-low-vision": {
+    "name": "fa-low-vision",
+    "keywords": []
+  },
+  "fa-mail-forward": {
+    "name": "fa-mail-forward",
+    "keywords": []
+  },
+  "fa-mail-reply": {
+    "name": "fa-mail-reply",
+    "keywords": []
+  },
+  "fa-map": {
+    "name": "fa-map",
+    "keywords": []
+  },
+  "fa-map-o": {
+    "name": "fa-map-o",
+    "keywords": []
+  },
+  "fa-map-pin": {
+    "name": "fa-map-pin",
+    "keywords": []
+  },
+  "fa-map-signs": {
+    "name": "fa-map-signs",
+    "keywords": []
+  },
+  "fa-mars": {
+    "name": "fa-mars",
+    "keywords": []
+  },
+  "fa-mars-double": {
+    "name": "fa-mars-double",
+    "keywords": []
+  },
+  "fa-mars-stroke": {
+    "name": "fa-mars-stroke",
+    "keywords": []
+  },
+  "fa-mars-stroke-h": {
+    "name": "fa-mars-stroke-h",
+    "keywords": []
+  },
+  "fa-mars-stroke-v": {
+    "name": "fa-mars-stroke-v",
+    "keywords": []
+  },
+  "fa-meanpath": {
+    "name": "fa-meanpath",
+    "keywords": []
+  },
+  "fa-medium": {
+    "name": "fa-medium",
+    "keywords": []
+  },
+  "fa-meetup": {
+    "name": "fa-meetup",
+    "keywords": []
+  },
+  "fa-mercury": {
+    "name": "fa-mercury",
+    "keywords": []
+  },
+  "fa-microchip": {
+    "name": "fa-microchip",
+    "keywords": []
+  },
+  "fa-mixcloud": {
+    "name": "fa-mixcloud",
+    "keywords": []
+  },
+  "fa-mobile-phone": {
+    "name": "fa-mobile-phone",
+    "keywords": []
+  },
+  "fa-modx": {
+    "name": "fa-modx",
+    "keywords": []
+  },
+  "fa-mortar-board": {
+    "name": "fa-mortar-board",
+    "keywords": []
+  },
+  "fa-motorcycle": {
+    "name": "fa-motorcycle",
+    "keywords": []
+  },
+  "fa-mouse-pointer": {
+    "name": "fa-mouse-pointer",
+    "keywords": []
+  },
+  "fa-navicon": {
+    "name": "fa-navicon",
+    "keywords": []
+  },
+  "fa-neuter": {
+    "name": "fa-neuter",
+    "keywords": []
+  },
+  "fa-newspaper-o": {
+    "name": "fa-newspaper-o",
+    "keywords": []
+  },
+  "fa-object-group": {
+    "name": "fa-object-group",
+    "keywords": []
+  },
+  "fa-object-ungroup": {
+    "name": "fa-object-ungroup",
+    "keywords": []
+  },
+  "fa-odnoklassniki": {
+    "name": "fa-odnoklassniki",
+    "keywords": []
+  },
+  "fa-odnoklassniki-square": {
+    "name": "fa-odnoklassniki-square",
+    "keywords": []
+  },
+  "fa-opencart": {
+    "name": "fa-opencart",
+    "keywords": []
+  },
+  "fa-openid": {
+    "name": "fa-openid",
+    "keywords": []
+  },
+  "fa-opera": {
+    "name": "fa-opera",
+    "keywords": []
+  },
+  "fa-optin-monster": {
+    "name": "fa-optin-monster",
+    "keywords": []
+  },
+  "fa-paint-brush": {
+    "name": "fa-paint-brush",
+    "keywords": []
+  },
+  "fa-paper-plane": {
+    "name": "fa-paper-plane",
+    "keywords": []
+  },
+  "fa-paper-plane-o": {
+    "name": "fa-paper-plane-o",
+    "keywords": []
+  },
+  "fa-paragraph": {
+    "name": "fa-paragraph",
+    "keywords": []
+  },
+  "fa-paste": {
+    "name": "fa-paste",
+    "keywords": []
+  },
+  "fa-pause-circle": {
+    "name": "fa-pause-circle",
+    "keywords": []
+  },
+  "fa-pause-circle-o": {
+    "name": "fa-pause-circle-o",
+    "keywords": []
+  },
+  "fa-paw": {
+    "name": "fa-paw",
+    "keywords": []
+  },
+  "fa-paypal": {
+    "name": "fa-paypal",
+    "keywords": []
+  },
+  "fa-percent": {
+    "name": "fa-percent",
+    "keywords": []
+  },
+  "fa-photo": {
+    "name": "fa-photo",
+    "keywords": []
+  },
+  "fa-pie-chart": {
+    "name": "fa-pie-chart",
+    "keywords": []
+  },
+  "fa-pied-piper": {
+    "name": "fa-pied-piper",
+    "keywords": []
+  },
+  "fa-pied-piper-alt": {
+    "name": "fa-pied-piper-alt",
+    "keywords": []
+  },
+  "fa-pied-piper-pp": {
+    "name": "fa-pied-piper-pp",
+    "keywords": []
+  },
+  "fa-pinterest-p": {
+    "name": "fa-pinterest-p",
+    "keywords": []
+  },
+  "fa-plug": {
+    "name": "fa-plug",
+    "keywords": []
+  },
+  "fa-podcast": {
+    "name": "fa-podcast",
+    "keywords": []
+  },
+  "fa-product-hunt": {
+    "name": "fa-product-hunt",
+    "keywords": []
+  },
+  "fa-qq": {
+    "name": "fa-qq",
+    "keywords": []
+  },
+  "fa-question-circle-o": {
+    "name": "fa-question-circle-o",
+    "keywords": []
+  },
+  "fa-quora": {
+    "name": "fa-quora",
+    "keywords": []
+  },
+  "fa-ra": {
+    "name": "fa-ra",
+    "keywords": []
+  },
+  "fa-ravelry": {
+    "name": "fa-ravelry",
+    "keywords": []
+  },
+  "fa-rebel": {
+    "name": "fa-rebel",
+    "keywords": []
+  },
+  "fa-recycle": {
+    "name": "fa-recycle",
+    "keywords": []
+  },
+  "fa-reddit": {
+    "name": "fa-reddit",
+    "keywords": []
+  },
+  "fa-reddit-alien": {
+    "name": "fa-reddit-alien",
+    "keywords": []
+  },
+  "fa-reddit-square": {
+    "name": "fa-reddit-square",
+    "keywords": []
+  },
+  "fa-registered": {
+    "name": "fa-registered",
+    "keywords": []
+  },
+  "fa-remove": {
+    "name": "fa-remove",
+    "keywords": []
+  },
+  "fa-reorder": {
+    "name": "fa-reorder",
+    "keywords": []
+  },
+  "fa-resistance": {
+    "name": "fa-resistance",
+    "keywords": []
+  },
+  "fa-rmb": {
+    "name": "fa-rmb",
+    "keywords": []
+  },
+  "fa-rotate-left": {
+    "name": "fa-rotate-left",
+    "keywords": []
+  },
+  "fa-rotate-right": {
+    "name": "fa-rotate-right",
+    "keywords": []
+  },
+  "fa-rouble": {
+    "name": "fa-rouble",
+    "keywords": []
+  },
+  "fa-ruble": {
+    "name": "fa-ruble",
+    "keywords": []
+  },
+  "fa-rupee": {
+    "name": "fa-rupee",
+    "keywords": []
+  },
+  "fa-s15": {
+    "name": "fa-s15",
+    "keywords": []
+  },
+  "fa-safari": {
+    "name": "fa-safari",
+    "keywords": []
+  },
+  "fa-save": {
+    "name": "fa-save",
+    "keywords": []
+  },
+  "fa-scribd": {
+    "name": "fa-scribd",
+    "keywords": []
+  },
+  "fa-sellsy": {
+    "name": "fa-sellsy",
+    "keywords": []
+  },
+  "fa-send": {
+    "name": "fa-send",
+    "keywords": []
+  },
+  "fa-send-o": {
+    "name": "fa-send-o",
+    "keywords": []
+  },
+  "fa-server": {
+    "name": "fa-server",
+    "keywords": []
+  },
+  "fa-share-alt": {
+    "name": "fa-share-alt",
+    "keywords": []
+  },
+  "fa-share-alt-square": {
+    "name": "fa-share-alt-square",
+    "keywords": []
+  },
+  "fa-shekel": {
+    "name": "fa-shekel",
+    "keywords": []
+  },
+  "fa-sheqel": {
+    "name": "fa-sheqel",
+    "keywords": []
+  },
+  "fa-ship": {
+    "name": "fa-ship",
+    "keywords": []
+  },
+  "fa-shirtsinbulk": {
+    "name": "fa-shirtsinbulk",
+    "keywords": []
+  },
+  "fa-shopping-bag": {
+    "name": "fa-shopping-bag",
+    "keywords": []
+  },
+  "fa-shopping-basket": {
+    "name": "fa-shopping-basket",
+    "keywords": []
+  },
+  "fa-shower": {
+    "name": "fa-shower",
+    "keywords": []
+  },
+  "fa-sign-language": {
+    "name": "fa-sign-language",
+    "keywords": []
+  },
+  "fa-signing": {
+    "name": "fa-signing",
+    "keywords": []
+  },
+  "fa-simplybuilt": {
+    "name": "fa-simplybuilt",
+    "keywords": []
+  },
+  "fa-skyatlas": {
+    "name": "fa-skyatlas",
+    "keywords": []
+  },
+  "fa-slack": {
+    "name": "fa-slack",
+    "keywords": []
+  },
+  "fa-sliders": {
+    "name": "fa-sliders",
+    "keywords": []
+  },
+  "fa-slideshare": {
+    "name": "fa-slideshare",
+    "keywords": []
+  },
+  "fa-snapchat": {
+    "name": "fa-snapchat",
+    "keywords": []
+  },
+  "fa-snapchat-ghost": {
+    "name": "fa-snapchat-ghost",
+    "keywords": []
+  },
+  "fa-snapchat-square": {
+    "name": "fa-snapchat-square",
+    "keywords": []
+  },
+  "fa-snowflake-o": {
+    "name": "fa-snowflake-o",
+    "keywords": []
+  },
+  "fa-soccer-ball-o": {
+    "name": "fa-soccer-ball-o",
+    "keywords": []
+  },
+  "fa-sort-down": {
+    "name": "fa-sort-down",
+    "keywords": []
+  },
+  "fa-sort-up": {
+    "name": "fa-sort-up",
+    "keywords": []
+  },
+  "fa-soundcloud": {
+    "name": "fa-soundcloud",
+    "keywords": []
+  },
+  "fa-space-shuttle": {
+    "name": "fa-space-shuttle",
+    "keywords": []
+  },
+  "fa-spoon": {
+    "name": "fa-spoon",
+    "keywords": []
+  },
+  "fa-spotify": {
+    "name": "fa-spotify",
+    "keywords": []
+  },
+  "fa-star-half-empty": {
+    "name": "fa-star-half-empty",
+    "keywords": []
+  },
+  "fa-star-half-full": {
+    "name": "fa-star-half-full",
+    "keywords": []
+  },
+  "fa-steam": {
+    "name": "fa-steam",
+    "keywords": []
+  },
+  "fa-steam-square": {
+    "name": "fa-steam-square",
+    "keywords": []
+  },
+  "fa-sticky-note": {
+    "name": "fa-sticky-note",
+    "keywords": []
+  },
+  "fa-sticky-note-o": {
+    "name": "fa-sticky-note-o",
+    "keywords": []
+  },
+  "fa-stop-circle": {
+    "name": "fa-stop-circle",
+    "keywords": []
+  },
+  "fa-stop-circle-o": {
+    "name": "fa-stop-circle-o",
+    "keywords": []
+  },
+  "fa-street-view": {
+    "name": "fa-street-view",
+    "keywords": []
+  },
+  "fa-stumbleupon": {
+    "name": "fa-stumbleupon",
+    "keywords": []
+  },
+  "fa-stumbleupon-circle": {
+    "name": "fa-stumbleupon-circle",
+    "keywords": []
+  },
+  "fa-subway": {
+    "name": "fa-subway",
+    "keywords": []
+  },
+  "fa-superpowers": {
+    "name": "fa-superpowers",
+    "keywords": []
+  },
+  "fa-support": {
+    "name": "fa-support",
+    "keywords": []
+  },
+  "fa-taxi": {
+    "name": "fa-taxi",
+    "keywords": []
+  },
+  "fa-telegram": {
+    "name": "fa-telegram",
+    "keywords": []
+  },
+  "fa-television": {
+    "name": "fa-television",
+    "keywords": []
+  },
+  "fa-tencent-weibo": {
+    "name": "fa-tencent-weibo",
+    "keywords": []
+  },
+  "fa-themeisle": {
+    "name": "fa-themeisle",
+    "keywords": []
+  },
+  "fa-thermometer": {
+    "name": "fa-thermometer",
+    "keywords": []
+  },
+  "fa-thermometer-0": {
+    "name": "fa-thermometer-0",
+    "keywords": []
+  },
+  "fa-thermometer-1": {
+    "name": "fa-thermometer-1",
+    "keywords": []
+  },
+  "fa-thermometer-2": {
+    "name": "fa-thermometer-2",
+    "keywords": []
+  },
+  "fa-thermometer-3": {
+    "name": "fa-thermometer-3",
+    "keywords": []
+  },
+  "fa-thermometer-4": {
+    "name": "fa-thermometer-4",
+    "keywords": []
+  },
+  "fa-thermometer-empty": {
+    "name": "fa-thermometer-empty",
+    "keywords": []
+  },
+  "fa-thermometer-full": {
+    "name": "fa-thermometer-full",
+    "keywords": []
+  },
+  "fa-thermometer-half": {
+    "name": "fa-thermometer-half",
+    "keywords": []
+  },
+  "fa-thermometer-quarter": {
+    "name": "fa-thermometer-quarter",
+    "keywords": []
+  },
+  "fa-thermometer-three-quarters": {
+    "name": "fa-thermometer-three-quarters",
+    "keywords": []
+  },
+  "fa-times-rectangle": {
+    "name": "fa-times-rectangle",
+    "keywords": []
+  },
+  "fa-times-rectangle-o": {
+    "name": "fa-times-rectangle-o",
+    "keywords": []
+  },
+  "fa-toggle-down": {
+    "name": "fa-toggle-down",
+    "keywords": []
+  },
+  "fa-toggle-left": {
+    "name": "fa-toggle-left",
+    "keywords": []
+  },
+  "fa-toggle-off": {
+    "name": "fa-toggle-off",
+    "keywords": []
+  },
+  "fa-toggle-on": {
+    "name": "fa-toggle-on",
+    "keywords": []
+  },
+  "fa-toggle-right": {
+    "name": "fa-toggle-right",
+    "keywords": []
+  },
+  "fa-toggle-up": {
+    "name": "fa-toggle-up",
+    "keywords": []
+  },
+  "fa-trademark": {
+    "name": "fa-trademark",
+    "keywords": []
+  },
+  "fa-train": {
+    "name": "fa-train",
+    "keywords": []
+  },
+  "fa-transgender": {
+    "name": "fa-transgender",
+    "keywords": []
+  },
+  "fa-transgender-alt": {
+    "name": "fa-transgender-alt",
+    "keywords": []
+  },
+  "fa-trash": {
+    "name": "fa-trash",
+    "keywords": []
+  },
+  "fa-tree": {
+    "name": "fa-tree",
+    "keywords": []
+  },
+  "fa-tripadvisor": {
+    "name": "fa-tripadvisor",
+    "keywords": []
+  },
+  "fa-tty": {
+    "name": "fa-tty",
+    "keywords": []
+  },
+  "fa-turkish-lira": {
+    "name": "fa-turkish-lira",
+    "keywords": []
+  },
+  "fa-tv": {
+    "name": "fa-tv",
+    "keywords": []
+  },
+  "fa-twitch": {
+    "name": "fa-twitch",
+    "keywords": []
+  },
+  "fa-universal-access": {
+    "name": "fa-universal-access",
+    "keywords": []
+  },
+  "fa-university": {
+    "name": "fa-university",
+    "keywords": []
+  },
+  "fa-unlink": {
+    "name": "fa-unlink",
+    "keywords": []
+  },
+  "fa-unsorted": {
+    "name": "fa-unsorted",
+    "keywords": []
+  },
+  "fa-usb": {
+    "name": "fa-usb",
+    "keywords": []
+  },
+  "fa-user-circle": {
+    "name": "fa-user-circle",
+    "keywords": []
+  },
+  "fa-user-circle-o": {
+    "name": "fa-user-circle-o",
+    "keywords": []
+  },
+  "fa-user-o": {
+    "name": "fa-user-o",
+    "keywords": []
+  },
+  "fa-user-plus": {
+    "name": "fa-user-plus",
+    "keywords": []
+  },
+  "fa-user-secret": {
+    "name": "fa-user-secret",
+    "keywords": []
+  },
+  "fa-user-times": {
+    "name": "fa-user-times",
+    "keywords": []
+  },
+  "fa-vcard": {
+    "name": "fa-vcard",
+    "keywords": []
+  },
+  "fa-vcard-o": {
+    "name": "fa-vcard-o",
+    "keywords": []
+  },
+  "fa-venus": {
+    "name": "fa-venus",
+    "keywords": []
+  },
+  "fa-venus-double": {
+    "name": "fa-venus-double",
+    "keywords": []
+  },
+  "fa-venus-mars": {
+    "name": "fa-venus-mars",
+    "keywords": []
+  },
+  "fa-viacoin": {
+    "name": "fa-viacoin",
+    "keywords": []
+  },
+  "fa-viadeo": {
+    "name": "fa-viadeo",
+    "keywords": []
+  },
+  "fa-viadeo-square": {
+    "name": "fa-viadeo-square",
+    "keywords": []
+  },
+  "fa-vimeo": {
+    "name": "fa-vimeo",
+    "keywords": []
+  },
+  "fa-vine": {
+    "name": "fa-vine",
+    "keywords": []
+  },
+  "fa-volume-control-phone": {
+    "name": "fa-volume-control-phone",
+    "keywords": []
+  },
+  "fa-warning": {
+    "name": "fa-warning",
+    "keywords": []
+  },
+  "fa-wechat": {
+    "name": "fa-wechat",
+    "keywords": []
+  },
+  "fa-weixin": {
+    "name": "fa-weixin",
+    "keywords": []
+  },
+  "fa-whatsapp": {
+    "name": "fa-whatsapp",
+    "keywords": []
+  },
+  "fa-wheelchair-alt": {
+    "name": "fa-wheelchair-alt",
+    "keywords": []
+  },
+  "fa-wifi": {
+    "name": "fa-wifi",
+    "keywords": []
+  },
+  "fa-wikipedia-w": {
+    "name": "fa-wikipedia-w",
+    "keywords": []
+  },
+  "fa-window-close": {
+    "name": "fa-window-close",
+    "keywords": []
+  },
+  "fa-window-close-o": {
+    "name": "fa-window-close-o",
+    "keywords": []
+  },
+  "fa-window-maximize": {
+    "name": "fa-window-maximize",
+    "keywords": []
+  },
+  "fa-window-minimize": {
+    "name": "fa-window-minimize",
+    "keywords": []
+  },
+  "fa-window-restore": {
+    "name": "fa-window-restore",
+    "keywords": []
+  },
+  "fa-won": {
+    "name": "fa-won",
+    "keywords": []
+  },
+  "fa-wordpress": {
+    "name": "fa-wordpress",
+    "keywords": []
+  },
+  "fa-wpbeginner": {
+    "name": "fa-wpbeginner",
+    "keywords": []
+  },
+  "fa-wpexplorer": {
+    "name": "fa-wpexplorer",
+    "keywords": []
+  },
+  "fa-wpforms": {
+    "name": "fa-wpforms",
+    "keywords": []
+  },
+  "fa-y-combinator": {
+    "name": "fa-y-combinator",
+    "keywords": []
+  },
+  "fa-y-combinator-square": {
+    "name": "fa-y-combinator-square",
+    "keywords": []
+  },
+  "fa-yahoo": {
+    "name": "fa-yahoo",
+    "keywords": []
+  },
+  "fa-yc": {
+    "name": "fa-yc",
+    "keywords": []
+  },
+  "fa-yc-square": {
+    "name": "fa-yc-square",
+    "keywords": []
+  },
+  "fa-yelp": {
+    "name": "fa-yelp",
+    "keywords": []
+  },
+  "fa-yen": {
+    "name": "fa-yen",
+    "keywords": []
+  },
+  "fa-yoast": {
+    "name": "fa-yoast",
     "keywords": []
   }
 }
