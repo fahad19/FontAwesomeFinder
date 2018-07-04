@@ -1,62 +1,171 @@
 {
   "fa-glass": {
     "name": "fa-glass",
-    "keywords": []
+    "keywords": [
+      "cocktail",
+      "alcohol",
+      "beer",
+      "wine",
+      "liquor",
+      "martini"
+    ]
   },
   "fa-music": {
     "name": "fa-music",
-    "keywords": []
+    "keywords": [
+      "song",
+      "radio",
+      "singing",
+      "note",
+      "musical",
+      "sounds"
+    ]
   },
   "fa-search": {
     "name": "fa-search",
     "keywords": [
       "magnifying glass",
-      "zoom"
+      "zoom",
+      "find",
+      "query"
     ]
   },
   "fa-envelope-o": {
     "name": "fa-envelope-o",
-    "keywords": []
+    "inherit": [
+      "fa-outline"
+    ],
+    "keywords": [
+      "mail",
+      "email",
+      "send",
+      "postal",
+      "notes"
+    ]
   },
   "fa-heart": {
     "name": "fa-heart",
-    "keywords": []
+    "keywords": [
+      "love",
+      "valentines",
+      "kisses",
+      "romance"
+    ]
   },
   "fa-star": {
     "name": "fa-star",
-    "keywords": []
+    "keywords": [
+      "rating",
+      "planet"
+    ]
   },
   "fa-star-o": {
     "name": "fa-star-o",
-    "keywords": []
+    "inherit": [
+      "fa-outline"
+    ],
+    "keywords": [
+      "rating",
+      "planet"
+    ]
   },
   "fa-user": {
     "name": "fa-user",
-    "keywords": []
+    "keywords": [
+      "client",
+      "person",
+      "body",
+      "man",
+      "human",
+      "woman"
+    ]
   },
   "fa-film": {
     "name": "fa-film",
-    "keywords": []
+    "keywords": [
+      "filming",
+      "strip",
+      "photography",
+      "negative",
+      "camera",
+      "picture",
+      "image"
+    ]
   },
   "fa-th-large": {
     "name": "fa-th-large",
-    "keywords": []
+    "keywords": [
+      "windows",
+      "fenestrations",
+      "layout",
+      "table",
+      "grid",
+      "column",
+      "cells",
+      "rows",
+      "td",
+      "scaffolding",
+      "big",
+      "quad",
+      "half"
+    ]
   },
   "fa-th": {
     "name": "fa-th",
-    "keywords": []
+    "keywords": [
+      "windows",
+      "fenestrations",
+      "layout",
+      "table",
+      "grid",
+      "column",
+      "cells",
+      "rows",
+      "td",
+      "scaffolding"
+    ]
   },
   "fa-th-list": {
     "name": "fa-th-list",
-    "keywords": []
+    "keywords": [
+      "items",
+      "bullets",
+      "layout",
+      "table",
+      "grid",
+      "rows",
+      "scaffolding",
+      "ol",
+      "ul",
+      "li"
+    ]
   },
   "fa-check": {
     "name": "fa-check",
-    "keywords": []
+    "keywords": [
+      "checkmark",
+      "done",
+      "completed",
+      "checkbox",
+      "ready"
+    ]
   },
   "fa-times": {
     "name": "fa-times",
-    "keywords": []
+    "keywords": [
+      "x",
+      "multiply",
+      "multiplication",
+      "mathematics",
+      "arithmetics",
+      "exit",
+      "close",
+      "no",
+      "none",
+      "crossed out",
+      "zero",
+      "letter"
+    ]
   },
   "fa-search-plus": {
     "name": "fa-search-plus",
@@ -89,6 +198,9 @@
   },
   "fa-trash-o": {
     "name": "fa-trash-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-home": {
@@ -97,10 +209,16 @@
   },
   "fa-file-o": {
     "name": "fa-file-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-clock-o": {
     "name": "fa-clock-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-road": {
@@ -125,6 +243,9 @@
   },
   "fa-play-circle-o": {
     "name": "fa-play-circle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-repeat": {
@@ -249,11 +370,28 @@
   },
   "fa-picture-o": {
     "name": "fa-picture-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-pencil": {
     "name": "fa-pencil",
-    "keywords": []
+    "keywords": [
+      "utensil",
+      "writer",
+      "written",
+      "draw",
+      "edit",
+      "pen",
+      "ink",
+      "lead",
+      "sharpen",
+      "literature",
+      "artist",
+      "sketch",
+      "trace"
+    ]
   },
   "fa-map-marker": {
     "name": "fa-map-marker",
@@ -269,19 +407,38 @@
   },
   "fa-pencil-square-o": {
     "name": "fa-pencil-square-o",
+    "inherit": [
+      "fa-pencil",
+      "fa-square"
+    ],
     "keywords": []
   },
   "fa-share-square-o": {
     "name": "fa-share-square-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-check-square-o": {
     "name": "fa-check-square-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-arrows": {
     "name": "fa-arrows",
-    "keywords": []
+    "keywords": [
+      "point",
+      "up",
+      "down",
+      "left",
+      "right",
+      "directions",
+      "vertical",
+      "horizontal"
+    ]
   },
   "fa-step-backward": {
     "name": "fa-step-backward",
@@ -341,6 +498,9 @@
   },
   "fa-times-circle": {
     "name": "fa-times-circle",
+    "inherit": [
+      "fa-times"
+    ],
     "keywords": []
   },
   "fa-check-circle": {
@@ -361,10 +521,18 @@
   },
   "fa-times-circle-o": {
     "name": "fa-times-circle-o",
+    "inherit": [
+      "fa-times",
+      "fa-circle"
+    ],
     "keywords": []
   },
   "fa-check-circle-o": {
     "name": "fa-check-circle-o",
+    "inherit": [
+      "fa-check",
+      "fa-circle"
+    ],
     "keywords": []
   },
   "fa-ban": {
@@ -493,6 +661,9 @@
   },
   "fa-bar-chart-o": {
     "name": "fa-bar-chart-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-twitter-square": {
@@ -533,6 +704,9 @@
   },
   "fa-heart-o": {
     "name": "fa-heart-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-sign-out": {
@@ -569,6 +743,9 @@
   },
   "fa-lemon-o": {
     "name": "fa-lemon-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-phone": {
@@ -577,10 +754,16 @@
   },
   "fa-square-o": {
     "name": "fa-square-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-bookmark-o": {
     "name": "fa-bookmark-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-phone-square": {
@@ -613,6 +796,9 @@
   },
   "fa-hdd-o": {
     "name": "fa-hdd-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-bullhorn": {
@@ -685,6 +871,9 @@
   },
   "fa-users": {
     "name": "fa-users",
+    "inherit": [
+      "fa-user"
+    ],
     "keywords": []
   },
   "fa-link": {
@@ -705,6 +894,9 @@
   },
   "fa-files-o": {
     "name": "fa-files-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-paperclip": {
@@ -713,11 +905,20 @@
   },
   "fa-floppy-o": {
     "name": "fa-floppy-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-square": {
     "name": "fa-square",
-    "keywords": []
+    "keywords": [
+      "geometry",
+      "shape",
+      "polygon",
+      "box",
+      "cube"
+    ]
   },
   "fa-bars": {
     "name": "fa-bars",
@@ -825,10 +1026,16 @@
   },
   "fa-comment-o": {
     "name": "fa-comment-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-comments-o": {
     "name": "fa-comments-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-bolt": {
@@ -849,34 +1056,69 @@
   },
   "fa-lightbulb-o": {
     "name": "fa-lightbulb-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-exchange": {
     "name": "fa-exchange",
+    "inherit": [
+      "fa-upload",
+      "fa-download"
+    ],
     "keywords": []
   },
   "fa-cloud-download": {
     "name": "fa-cloud-download",
+    "inherit": [
+      "fa-cloud",
+      "fa-download"
+    ],
     "keywords": []
   },
   "fa-cloud-upload": {
     "name": "fa-cloud-upload",
+    "inherit": [
+      "fa-cloud",
+      "fa-upload"
+    ],
     "keywords": []
   },
   "fa-user-md": {
     "name": "fa-user-md",
+    "inherit": [
+      "fa-user",
+      "fa-stethoscope"
+    ],
     "keywords": []
   },
   "fa-stethoscope": {
     "name": "fa-stethoscope",
-    "keywords": []
+    "keywords": [
+      "medical",
+      "doctor",
+      "healthcare",
+      "nurse",
+      "hospital"
+    ]
   },
   "fa-suitcase": {
     "name": "fa-suitcase",
-    "keywords": []
+    "keywords": [
+      "work",
+      "business",
+      "briefcase",
+      "traveling",
+      "vacation",
+      "bag"
+    ]
   },
   "fa-bell-o": {
     "name": "fa-bell-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-coffee": {
@@ -889,14 +1131,23 @@
   },
   "fa-file-text-o": {
     "name": "fa-file-text-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-building-o": {
     "name": "fa-building-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hospital-o": {
     "name": "fa-hospital-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-ambulance": {
@@ -973,6 +1224,9 @@
   },
   "fa-circle-o": {
     "name": "fa-circle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": [
       "not required",
       "optional"
@@ -988,7 +1242,15 @@
   },
   "fa-spinner": {
     "name": "fa-spinner",
-    "keywords": []
+    "keywords": [
+      "loader",
+      "gif",
+      "animated",
+      "loading",
+      "wait",
+      "circle",
+      "dots"
+    ]
   },
   "fa-circle": {
     "name": "fa-circle",
@@ -1004,22 +1266,37 @@
   },
   "fa-folder-o": {
     "name": "fa-folder-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-folder-open-o": {
     "name": "fa-folder-open-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-smile-o": {
     "name": "fa-smile-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-frown-o": {
     "name": "fa-frown-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-meh-o": {
     "name": "fa-meh-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-gamepad": {
@@ -1028,10 +1305,16 @@
   },
   "fa-keyboard-o": {
     "name": "fa-keyboard-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-flag-o": {
     "name": "fa-flag-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-flag-checkered": {
@@ -1056,6 +1339,9 @@
   },
   "fa-star-half-o": {
     "name": "fa-star-half-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-location-arrow": {
@@ -1116,6 +1402,9 @@
   },
   "fa-calendar-o": {
     "name": "fa-calendar-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-fire-extinguisher": {
@@ -1192,6 +1481,9 @@
   },
   "fa-minus-square-o": {
     "name": "fa-minus-square-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-level-up": {
@@ -1208,6 +1500,10 @@
   },
   "fa-pencil-square": {
     "name": "fa-pencil-square",
+    "inherit": [
+      "fa-pencil",
+      "fa-square"
+    ],
     "keywords": []
   },
   "fa-external-link-square": {
@@ -1424,10 +1720,16 @@
   },
   "fa-sun-o": {
     "name": "fa-sun-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-moon-o": {
     "name": "fa-moon-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-archive": {
@@ -1472,6 +1774,9 @@
   },
   "fa-dot-circle-o": {
     "name": "fa-dot-circle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-wheelchair": {
@@ -1488,6 +1793,9 @@
   },
   "fa-plus-square-o": {
     "name": "fa-plus-square-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-500px": {
@@ -1500,6 +1808,9 @@
   },
   "fa-address-book-o": {
     "name": "fa-address-book-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-address-card": {
@@ -1508,6 +1819,9 @@
   },
   "fa-address-card-o": {
     "name": "fa-address-card-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-amazon": {
@@ -1632,6 +1946,9 @@
   },
   "fa-bell-slash-o": {
     "name": "fa-bell-slash-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-bicycle": {
@@ -1696,18 +2013,30 @@
   },
   "fa-calendar-check-o": {
     "name": "fa-calendar-check-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-calendar-minus-o": {
     "name": "fa-calendar-minus-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-calendar-plus-o": {
     "name": "fa-calendar-plus-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-calendar-times-o": {
     "name": "fa-calendar-times-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-car": {
@@ -1804,6 +2133,9 @@
   },
   "fa-commenting-o": {
     "name": "fa-commenting-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-connectdevelop": {
@@ -1892,6 +2224,9 @@
   },
   "fa-drivers-license-o": {
     "name": "fa-drivers-license-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-drupal": {
@@ -1920,6 +2255,9 @@
   },
   "fa-envelope-open-o": {
     "name": "fa-envelope-open-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-envelope-square": {
@@ -1968,58 +2306,100 @@
   },
   "fa-file-archive-o": {
     "name": "fa-file-archive-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-audio-o": {
     "name": "fa-file-audio-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-code-o": {
     "name": "fa-file-code-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-excel-o": {
     "name": "fa-file-excel-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-image-o": {
     "name": "fa-file-image-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-movie-o": {
     "name": "fa-file-movie-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-pdf-o": {
     "name": "fa-file-pdf-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-photo-o": {
     "name": "fa-file-photo-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-picture-o": {
     "name": "fa-file-picture-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-powerpoint-o": {
     "name": "fa-file-powerpoint-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-sound-o": {
     "name": "fa-file-sound-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-video-o": {
     "name": "fa-file-video-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-word-o": {
     "name": "fa-file-word-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-file-zip-o": {
     "name": "fa-file-zip-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-firefox": {
@@ -2056,6 +2436,9 @@
   },
   "fa-futbol-o": {
     "name": "fa-futbol-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-ge": {
@@ -2144,42 +2527,72 @@
   },
   "fa-hand-grab-o": {
     "name": "fa-hand-grab-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-lizard-o": {
     "name": "fa-hand-lizard-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-paper-o": {
     "name": "fa-hand-paper-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-peace-o": {
     "name": "fa-hand-peace-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-pointer-o": {
     "name": "fa-hand-pointer-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-rock-o": {
     "name": "fa-hand-rock-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-scissors-o": {
     "name": "fa-hand-scissors-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-spock-o": {
     "name": "fa-hand-spock-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hand-stop-o": {
     "name": "fa-hand-stop-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-handshake-o": {
     "name": "fa-handshake-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hard-of-hearing": {
@@ -2232,6 +2645,9 @@
   },
   "fa-hourglass-o": {
     "name": "fa-hourglass-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-hourglass-start": {
@@ -2256,6 +2672,9 @@
   },
   "fa-id-card-o": {
     "name": "fa-id-card-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-ils": {
@@ -2360,6 +2779,9 @@
   },
   "fa-map-o": {
     "name": "fa-map-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-map-pin": {
@@ -2444,6 +2866,9 @@
   },
   "fa-newspaper-o": {
     "name": "fa-newspaper-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-object-group": {
@@ -2488,6 +2913,9 @@
   },
   "fa-paper-plane-o": {
     "name": "fa-paper-plane-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-paragraph": {
@@ -2504,6 +2932,9 @@
   },
   "fa-pause-circle-o": {
     "name": "fa-pause-circle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-paw": {
@@ -2560,6 +2991,9 @@
   },
   "fa-question-circle-o": {
     "name": "fa-question-circle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-quora": {
@@ -2660,6 +3094,9 @@
   },
   "fa-send-o": {
     "name": "fa-send-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-server": {
@@ -2744,10 +3181,16 @@
   },
   "fa-snowflake-o": {
     "name": "fa-snowflake-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-soccer-ball-o": {
     "name": "fa-soccer-ball-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-sort-down": {
@@ -2796,6 +3239,9 @@
   },
   "fa-sticky-note-o": {
     "name": "fa-sticky-note-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-stop-circle": {
@@ -2804,6 +3250,9 @@
   },
   "fa-stop-circle-o": {
     "name": "fa-stop-circle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-street-view": {
@@ -2900,6 +3349,9 @@
   },
   "fa-times-rectangle-o": {
     "name": "fa-times-rectangle-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-toggle-down": {
@@ -2992,26 +3444,52 @@
   },
   "fa-user-circle": {
     "name": "fa-user-circle",
+    "inherit": [
+      "fa-user"
+    ],
     "keywords": []
   },
   "fa-user-circle-o": {
     "name": "fa-user-circle-o",
+    "inherit": [
+      "fa-user"
+    ],
     "keywords": []
   },
   "fa-user-o": {
     "name": "fa-user-o",
+    "inherit": [
+      "fa-user"
+    ],
     "keywords": []
   },
   "fa-user-plus": {
     "name": "fa-user-plus",
-    "keywords": []
+    "inherit": [
+      "fa-user"
+    ],
+    "keywords": [
+      "add",
+      "new",
+      "create"
+    ]
   },
   "fa-user-secret": {
     "name": "fa-user-secret",
-    "keywords": []
+    "inherit": [
+      "fa-user"
+    ],
+    "keywords": [
+      "private",
+      "anonymous"
+    ]
   },
   "fa-user-times": {
     "name": "fa-user-times",
+    "inherit": [
+      "fa-user",
+      "fa-times"
+    ],
     "keywords": []
   },
   "fa-vcard": {
@@ -3020,6 +3498,9 @@
   },
   "fa-vcard-o": {
     "name": "fa-vcard-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-venus": {
@@ -3092,6 +3573,9 @@
   },
   "fa-window-close-o": {
     "name": "fa-window-close-o",
+    "inherit": [
+      "fa-outline"
+    ],
     "keywords": []
   },
   "fa-window-maximize": {
