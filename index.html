@@ -1,63 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>FontAwesome Meta Search Tool | Search by Keyword(s)</title>
-
-    <link href="./css/app.css" rel="stylesheet">
-  </head>
-
-  <body ng-app="FontAwesomeFinder" ng-controller="IndexController">
-    <header>
-      <div class="container">
-        <div class="col-md-12">
-          <h1>
-            <i class="fa fa-flag"></i>
-            Search For Icons By Keyword
-          </h1>
-
-          <p>Start typing...</p>
-
-          <input type="search" results="5" ng-model="q" ng-change="search()" ngFocus class="form-control" placeholder="Type a keyword or icon name (e.g. 'doctor')" />
-        </div>
-      </div>
-    </header>
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 icons-list">
-            <div class="col-md-3 icon" ng-repeat="icon in icons" ng-show="isVisible(icon)">
-              <a href="javascript:">
-                <i class="fa {{icon.name}}"></i> {{icon.name}}
-              </a>
+    <head>
+        <meta charset="utf-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <title> FontAwesome Meta Search Tool | Search by Keyword(s) </title>
+        <link href="./css/app.css" rel="stylesheet" />
+    </head>
+    <body ng-app="FontAwesomeFinder" ng-controller="IndexController">
+        <header>
+            <div class="container">
+                <div class="col-md-6 block-centered col-md-push-3">
+                    <h1 style="line-height:normal">
+                        <i class="fa fa-flag"> </i>
+                        <div>Font Awesome:</div>
+                        <small><small class="white uppercase strong">Icon Search Tool</small></small>
+                    </h1>
+                    <h4 class="white text-center"> Start typing! </h4><br/>
+                    <input class="text-center form-control" ng-change="search()" ng-model="q" ngfocus="" placeholder="Keyword or Icon Class" results="5" type="search" style="line-height: 2.5rem;padding: 3.7rem 2rem;font-size: 2.6rem;" />
+                </div>
             </div>
-          </div>
-
-          <div ng-show="visibleCount == 0" class="col-md-12">
-            <div class="alert alert-warning">
-              You search didn't return any results. Please try a different keyword.
+        </header>
+        <section>
+            <div class="container">
+                <div class="row equal-heights">
+                    <div class="col-md-12 icons-list">
+                        <div class="col-md-4 col-sm-6 col-xs-12 icon" ng-repeat="icon in icons" ng-show="isVisible(icon)">
+                            <a href="javascript:" class="equal">
+                                <i class="fa {{icon.name}}"> </i>
+                                {{icon.name}}
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-12" ng-show="visibleCount == 0">
+                        <div class="alert alert-warning">
+                            Your search didn't return any results. Please try another keyword.
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
+        </section>
+        <footer>
+            <div class="container">
+                <h2 class="strong">¯\_(ツ)_/¯</h2><br/>
+                Created by
+                <a href="http://twitter.com/fahad19" class="strong" target="_blank">@fahad19</a> <br/><br/>
+                Optimized by
+                <a href="https://github.com/blizzrdof77" class="strong" target="_blank">@blizzrdof77</a>
+            </div>
+        </footer>
 
-    <footer>
-      <div class="container">
-        Built with Bootstrap/FontAwesome and AngularJS, by <a href="http://twitter.com/fahad19">@fahad19</a>.<br/>
-        Modifications by <a href="https://github.com/blizzrdof77">@blizzrdof77</a>.
-      </div>
-    </footer>
+        <a href="https://github.com/blizzrdof77/FontAwesomeFinder" target="_blank">
+            <img alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: absolute; top: 0; right: 0; border: 0;filter: invert(1) brightness(150%);"/>
+        </a>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- <script src="//simpledigital.net/js/app.common.min.js"></script> -->
+        <script src="./js/app.js"> </script>
+        <script type="text/javascript">
+            window.onload = function () {
+                /**
+                 * Copy to clipboard
+                 */
+                COPIED = false;
 
-    <a href="https://github.com/blizzrdof77/FontAwesomeFinder"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+                jQuery('.icon').on('click', function() {
+                    var $ = jQuery;
+                    var range, selection;
 
-    <script src="./js/app.js"></script>
-    <!-- Google Analytics will go here -->
-  </body>
+                    t = $(event.target);
+                    range = document.createRange();
+                        t.after('<input type="text" value="' + t.text().trim() + '" style="opacity: 0;position: absolute;" />');
+                        var inp = t.next('input');
+                        inp.select();
+                        window.setTimeout(function() {
+                            document.execCommand("copy");
+                            inp.remove();
+                            alert('The icon class has been copied to your clipboard!');
+                        }, 200);
+                });
+            };
+        </script>
+        <!-- Google Analytics will go here -->
+    </body>
 </html>

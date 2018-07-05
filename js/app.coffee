@@ -70,3 +70,35 @@ module.controller 'IndexController', [
     $scope.search()
 
 ]
+
+
+# Main JavaScript
+# equalHeights = ->
+#   var $ = jQuery;
+#   a = $('.equal-heights')
+#   a.removeClass('equalized')
+#   windowWidth = $(window).width()
+#   if windowWidth > 768 then a.length > 0 and a.each((->
+#     `var a`
+#     a = $(this).find('.equal')
+#     b = 0
+#     a.height('auto')
+#     a.each((->
+#       `var a`
+#       a = $(this).innerHeight()
+#       b < a and (b = a)
+#       return
+#     ))
+#     a.css('height', b + 'px')
+#     $(this).addClass('equalized')
+#     return
+#   )) else a.find('.equal').css('height', 'auto')
+#   return
+
+# $(window).on 'load', ->
+#   $(window).trigger 'resize'
+#   return
+
+# $(window).on 'resize', ->
+#   equalHeights()
+#   return
