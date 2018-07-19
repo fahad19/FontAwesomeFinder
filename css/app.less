@@ -20,6 +20,7 @@
 @family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @heading-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @scheme: #45AAFF;
+@schemeSecondary: #F25827;
 @schemeLightened: lighten(@scheme, 5%);
 @schemeDarkened: darken(@scheme, 5%);
 
@@ -159,7 +160,7 @@ footer {
                 box-shadow: 0 0 2px #ccc;
                 color: white;
                 text-shadow: 0 0 61px #222;
-                background: #F25827;
+                background: @schemeSecondary;
                 cursor: pointer;
                 position: relative;
                 margin-left: 1.2rem;
@@ -181,11 +182,11 @@ footer {
 }
 
 .color-primary {
-    color:#45AAFF !important;
+    color:@scheme !important;
 }
 
 .color-secondary {
-    color: #F25827 !important;
+    color: @schemeSecondary !important;
 }
 
 /* SMALL SCREENS */
@@ -209,5 +210,15 @@ footer {
         a {
             text-align: left;
         }
+    }
+}
+
+@supports (display: grid) {
+    .flexible-grid {
+        display: grid;
+        grid-gap: 0;
+        grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+        align-items: center;
+        align-content: center;
     }
 }
