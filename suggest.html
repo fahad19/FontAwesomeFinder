@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" name="author" />
+        <title> FontAwesome Meta Search Tool | Search by Keyword(s) </title>
+        <link href="/css/app.css" rel="stylesheet" />
+    </head>
+    <body ng-app="FontAwesomeFinder" ng-controller="IndexController">
+        <header>
+            <div class="container">
+                <div class="col-md-6 block-centered col-md-push-3">
+                    <h1 style="line-height:normal">
+                        <i class="fa fa-flag"> </i>
+                        <div>Font Awesome:</div>
+                        <small><small class="white uppercase strong">Icon Search Tool</small></small>
+                    </h1>
+                    <h4 class="white text-center"> Start typing! </h4><br/>
+                    <input class="text-center form-control" ng-change="search()" ng-model="q" ngfocus="" placeholder="Keyword or Icon Class" results="5" type="search" style="line-height: 2.5rem;padding: 3.7rem 2rem;font-size: 2.6rem;" />
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="equal-heights">
+                <div class="icons-list flexible-grid">
+                    <div class="icon" ng-repeat="icon in icons" ng-show="isVisible(icon)">
+                        <a href="javascript:" class="equal">
+                            <i class="fa {{icon.name}}"> </i>
+                            {{icon.name}}
+                        </a>
+                        <i class="suggest-trigger fa fa-plus-circle" data-icon-class="{{icon.name}}"> </i>
+                        <form class="suggest-form" action="/submit/" method="post" name="suggest_{{icon.name}}">
+                            <label for="{{icon.name}}">{{icon.name}}</label>
+                            <input type="text" name="{{icon.name}}" placeholder="{{icon.keywords.join(',')}}" title="Current Tags: {{icon.keywords.join(',')}}">
+                        </form>
+                    </div>
+                </div>
+                <div class="row" ng-show="visibleCount == 0">
+                    <div class="col-xs-12">
+                        <div class="alert alert-warning">
+                            Your search didn't return any results. Please try another keyword.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <h2 class="strong">¯\_(ツ)_/¯</h2><br/>
+                Created by
+                <a href="http://twitter.com/fahad19" class="strong" target="_blank">@fahad19</a> <br/><br/>
+                Optimized by
+                <a href="https://github.com/blizzrdof77" class="strong" target="_blank">@blizzrdof77</a>
+            </div>
+        </footer>
+
+        <a href="https://github.com/blizzrdof77/FontAwesomeFinder" target="_blank">
+            <img alt="Fork me on GitHub" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: absolute; top: 0; right: 0; border: 0;filter: invert(1) brightness(150%);"/>
+        </a>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- <script src="//simpledigital.net/js/app.common.min.js"></script> -->
+        <script src="/js/app.js"> </script>
+        <script type="text/javascript">
+            window.onload = function () {
+                /**
+                 * Copy to clipboard
+                 */
+                COPIED = false;
+
+                jQuery('.icon').on('click', function() {
+                    var $ = jQuery;
+                    var range, selection;
+
+                    t = $(event.target);
+                    range = document.createRange();
+                        t.after('<input type="text" value="' + t.text().trim() + '" style="opacity: 0;position: absolute;" />');
+                        var inp = t.next('input');
+                        inp.select();
+                        window.setTimeout(function() {
+                            document.execCommand("copy");
+                            inp.remove();
+                            alert('The icon class has been copied to your clipboard!');
+                        }, 200);
+                });
+            };
+        </script>
+            });
+        <!-- Google suggest-trigger fa-plus-circleh data-icon-class="{{icon.name}}"ere -->
+        <form action="/submit/" method="post" name="{{icon"></form><input type="text" name="{{ic">
+    </body>
+</html>

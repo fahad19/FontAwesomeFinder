@@ -222,3 +222,50 @@ footer {
         align-content: center;
     }
 }
+
+.icons-list .icon {
+    position: relative;
+}
+
+.icons-list .icon .fa-plus-circle {
+    transition: transform,margin-left .4s ease;
+    display: grid;
+    height: 45px;
+    align-items: center;
+    width: 45px;
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 2px #ccc;
+    color: #fff;
+    background: #2d6f3d;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 0;
+    left: auto;
+    right: 0;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    box-shadow: none!important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    filter: grayscale(1);
+    + .suggest-form {
+        display: none;
+    }
+}
+
+.icons-list .icon .fa-plus-circle:hover {
+    transform: scale(1.4) rotate(360deg);
+    transition: all 0.6s ease;
+    background: #F25827;
+    border: 2px solid;
+}

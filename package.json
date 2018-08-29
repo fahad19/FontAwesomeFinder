@@ -6,6 +6,7 @@
     "name": "Fahad Ibnay Heylaal"
   },
   "dependencies": {
+    "angular-sweetalert": "^1.1.2",
     "fs": "0.0.1-security",
     "grunt": "0.4.2",
     "grunt-contrib-clean": "0.5.0",
