@@ -10,12 +10,11 @@ Searches are based on FontAwesome's CSS class names, custom keywords, and relate
   
 You can help make the searches even better by updating the `data.json`file.
 
-### **Adding Keywords**
+### Adding Keywords
 
 Try adding more `keywords` to an icon. An example icon in `data.json` would look like this:
 
-{% code-tabs %}
-{% code-tabs-item title="data.json" %}
+
 ```javascript
 "fa-pencil": {
     "name": "fa-pencil",
@@ -29,15 +28,11 @@ Try adding more `keywords` to an icon. An example icon in `data.json` would look
     ]
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 ### Using Inheritance
 
 Try adding icons to the `inherit` property of an icon to inherit the keywords of other icons.
 
-{% code-tabs %}
-{% code-tabs-item title="data.json" %}
 ```javascript
 "fa-pencil-square-o": {
     "name": "fa-pencil-square-o",
@@ -49,8 +44,6 @@ Try adding icons to the `inherit` property of an icon to inherit the keywords of
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 ## License
 
