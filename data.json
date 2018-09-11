@@ -828,6 +828,7 @@
     },
     "fa-question-circle": {
         "name": "fa-question-circle",
+        "inherit": ["fa-circle", "fa-question"]
         "keywords": []
     },
     "fa-info-circle": {
@@ -2006,11 +2007,12 @@
             "ask", "proposal", "converse", "discourse", "theme", "subject", "topic",
             "questioning", "inquiring", "meditate", "chew over", "contemplate", "excogitate",
             "mull", "mull over", "muse", "ponder", "reflect", "ruminate", "speculate",
-            "think over", "enquire", "ask", "inquire", "marriage offer", "proposal of marriage",
-            "proposal", "marriage proposal", "cross-question", "yes-no question",
+            "think over", "enquire", "ask", "inquire", "yes-no question",
             "leading question", "question of fact", "matter of fact", "problem",
             "matter of law", "question of law", "scruple", "examine", "check out", "wonder",
-            "debrief", "enquire", "feel out", "inquire", "interpellate", "pump", "sound out"
+            "debrief", "enquire", "feel out", "inquire", "interpellate", "help", "tutorial",
+            "huh",
+            "confused", "confusion"
         ]
     },
     "fa-info": {
@@ -2046,11 +2048,12 @@
     },
     "fa-puzzle-piece": {
         "name": "fa-puzzle-piece",
-        "keywords": []
+        "keywords": ["jigsaw", "pieces", "scavenger hunt", "game", "solve"]
     },
     "fa-microphone": {
         "name": "fa-microphone",
-        "keywords": []
+        "keywords": ["audio", "live", "pro audio", "vocals"],
+        "inherit": ["fa-music"]
     },
     "fa-microphone-slash": {
         "name": "fa-microphone-slash",
@@ -2777,7 +2780,9 @@
     },
     "fa-close": {
         "name": "fa-close",
-        "keywords": []
+        "keywords": ["exit", "remove", "x", "not", "no", "un", "shut down", "delete", "off",
+            "escape"
+        ]
     },
     "fa-cny": {
         "name": "fa-cny",
@@ -3597,7 +3602,7 @@
     },
     "fa-question-circle-o": {
         "name": "fa-question-circle-o",
-        "inherit": ["fa-outline"],
+        "inherit": ["fa-outline", "fa-question"],
         "keywords": []
     },
     "fa-quora": {
@@ -4141,52 +4146,66 @@
     },
     "fa-wifi": {
         "name": "fa-wifi",
-        "keywords": []
+        "keywords": ["wireless", "internet", "cable", "web", "www", "word wide web", "surf",
+            "browse", "broadband", "DSL"
+        ]
     },
     "fa-wikipedia-w": {
         "name": "fa-wikipedia-w",
-        "keywords": []
+        "keywords": ["encyclopedia", "dictionary", "information"]
     },
     "fa-window-close": {
         "name": "fa-window-close",
-        "keywords": []
+        "keywords": ["computer", "desktop", "tab"],
+        "inherit": ["fa-close"]
     },
     "fa-window-close-o": {
         "name": "fa-window-close-o",
         "inherit": ["fa-outline"],
-        "keywords": []
+        "keywords": [],
+        "inherit": ["fa-window-close", "fa-close"]
     },
     "fa-window-maximize": {
         "name": "fa-window-maximize",
-        "keywords": []
+        "keywords": ["full screen", "restore"],
+        "inherit": ["fa-window-close"]
     },
     "fa-window-minimize": {
         "name": "fa-window-minimize",
-        "keywords": []
+        "keywords": [],
+        "inherit": ["fa-window-close"]
     },
     "fa-window-restore": {
         "name": "fa-window-restore",
-        "keywords": []
+        "keywords": [],
+        "inherit": ["fa-window-close", "fa-window-maximize"]
     },
     "fa-won": {
         "name": "fa-won",
-        "keywords": []
+        "keywords": ["victory", "winner", "success", "suceed"]
     },
     "fa-wordpress": {
         "name": "fa-wordpress",
-        "keywords": []
+        "keywords": ["turdpress", "WP Query", "posts", "permalinks", "WordPress.org", "CMS",
+            "Content Management System"
+        ]
     },
     "fa-wpbeginner": {
         "name": "fa-wpbeginner",
-        "keywords": []
+        "keywords": [],
+        "inherit": ["fa-wordpress"]
     },
     "fa-wpexplorer": {
         "name": "fa-wpexplorer",
-        "keywords": []
+        "keywords": ["files", "finder"],
+        "inherit": ["fa-wordpress"]
     },
     "fa-wpforms": {
         "name": "fa-wpforms",
-        "keywords": []
+        "keywords": ["submit", "input", "checkbox", "select", "menu", "buttons", "post", "get",
+            "method", "action", "ajax"
+        ],
+        "inherit": ["fa-wordpress"]
     },
     "fa-y-combinator": {
         "name": "fa-y-combinator",
@@ -4198,7 +4217,8 @@
     },
     "fa-yahoo": {
         "name": "fa-yahoo",
-        "keywords": []
+        "keywords": ["search engine"],
+        "inherit": ["fa-yoast"]
     },
     "fa-yc": {
         "name": "fa-yc",
@@ -4210,7 +4230,7 @@
     },
     "fa-yelp": {
         "name": "fa-yelp",
-        "keywords": []
+        "keywords": ["reviews", "ratings", "restaurants"]
     },
     "fa-yen": {
         "name": "fa-yen",
@@ -4218,6 +4238,15 @@
     },
     "fa-yoast": {
         "name": "fa-yoast",
-        "keywords": []
+        "keywords": ["seo", "search engine optimization", "google", "sns", "social network",
+            "social media apps", "social media marketing", "social media sites",
+            "social networking apps", "social networking sites", "social media manager",
+            "what is social media", "what is social media", "sosial media", "social marketing",
+            "social media management", "social media platforms", "social media strategy",
+            "social sites", "social media jobs", "all social media", "social media analytics",
+            "social network analysis", "social media news", "social media campaign",
+            "social media agency", "social media marketing strategy", "socialtools", "keyword",
+            "keyword", "keyword", "keyword", "keyword"
+        ]
     }
 }
