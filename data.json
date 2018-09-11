@@ -828,7 +828,7 @@
     },
     "fa-question-circle": {
         "name": "fa-question-circle",
-        "inherit": ["fa-circle", "fa-question"]
+        "inherit": ["fa-circle", "fa-question"],
         "keywords": []
     },
     "fa-info-circle": {
