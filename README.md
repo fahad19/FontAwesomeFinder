@@ -2,7 +2,7 @@
 
 Instantly search for FontAwesome icons through a web interface.
 
-Visit [https://hostsimple.co/misc/fontawesome-search/](https://hostsimple.co/misc/fontawesome-search/)
+Visit [https://awesomeiconsearch.com/](https://awesomeiconsearch.com)
 
 ## Contributing
 
