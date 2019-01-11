@@ -1,6 +1,69 @@
-css/app.css
-js/app.js
+##########
+# Common
+##########
+.well-known
+*.bak
+ignore/
+TRASH
 
-node_modules
-vendors
-tmp
+###########
+# OS Junk
+###########
+Thumbs.db
+Desktop.in
+.DS_Store
+._.DS_Store
+__MACOSX/
+
+#############
+# IDE Stuff
+#############
+php53.cgi
+*.sublime-workspace
+.idea/
+.phpintel/
+oracle.sqlite
+
+########################
+# Environment-Specific
+########################
+php-scripts/ignore/
+wp-config.php
+uploads/
+
+#####################
+# Task Runner Stuff
+#####################
+.sass-cache
+node_modules/
+bower_components/
+
+###########
+# Plugins
+###########
+wp-content/plugins/fakerpress
+wp-content/plugins/post-duplicator
+wp-content/plugins/debug
+wp-content/plugins/wp-php-console
+wp-content/plugins/ajax-thumbnail-rebuild
+wp-content/plugins/debug-bar-console
+wp-content/plugins/debug-bar
+wp-content/plugins/wp-rollback
+wp-content/plugins/duplicate-post
+wp-content/mu-plugins/acf-auto-php-export/.git
+
+########
+# Logs
+########
+changelog/
+*.log
+
+# SSL Certs
+.well-known/
+
+##########
+# OTHER
+###########
+misc/
+apps/
+

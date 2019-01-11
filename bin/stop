@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/pkill -f /home/hostsimpleco/webapps/fontawesome_meta_search/bin/node && rm -f /home/hostsimpleco/webapps/fontawesome_meta_search/run/node.pid

@@ -4,6 +4,6 @@
   "dependencies": {
     "bootstrap": "3.0.3",
     "angular": "1.2.10",
-    "font-awesome": "4.0.3"
+    "font-awesome": "4.7.0"
   }
 }

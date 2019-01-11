@@ -6,13 +6,17 @@
     "name": "Fahad Ibnay Heylaal"
   },
   "dependencies": {
+    "angular-sweetalert": "^1.1.2",
+    "fs": "0.0.1-security",
     "grunt": "0.4.2",
-    "grunt-contrib-watch": "0.5.3",
-    "grunt-contrib-less": "0.9.0",
-    "grunt-contrib-coffee": "0.8.2",
     "grunt-contrib-clean": "0.5.0",
+    "grunt-contrib-coffee": "0.8.2",
     "grunt-contrib-concat": "0.3.0",
     "grunt-contrib-cssmin": "0.7.0",
-    "grunt-contrib-uglify": "0.3.2"
+    "grunt-contrib-less": "0.9.0",
+    "grunt-contrib-uglify": "0.3.2",
+    "grunt-contrib-watch": "0.5.3",
+    "rapidapi-connect": "0.0.6",
+    "thesaurus": "0.0.0"
   }
 }
