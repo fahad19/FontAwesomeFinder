@@ -1,7 +1,10 @@
 The MIT License
 
-FontAwesomeFinder : Search FontAwesome icons instantly. (http://fahad19.github.io/FontAwesomeFinder/)
-Copyright 2013, Fahad Ibnay Heylaal <contact@fahad19.com>
+Awesome Icon Search : Search FontAwesome icons instantly. (https://awesomeiconsearch.com)
+
+Copyright 2013 - 2019
+Fahad Ibnay Heylaal <contact@fahad19.com> [Creator]
+Ben Wagner <ben@simpledigital.net> [Maintainer]
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
